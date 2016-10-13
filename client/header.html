@@ -1,0 +1,59 @@
+<template name="header">
+  <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+
+
+                <a class="navbar-brand navbar-logo" href="#page-top">Phoenix Website Design</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+
+          <li>
+            <a href="/blog">Blog</a>
+          </li>
+          <li>
+            <a href="/admin/blog">Admin Area</a>
+          </li>
+
+                              <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+
+                    <li>
+                
+                    {{> loginButtons}}
+                </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <br><br><br><br>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text bg-image">
+                <div> Welcome To Our Studio!</div>
+                <div class="intro-subheading">Check our our portfolio!</div>
+                <a href="#portfolio" class="btn btn-primary btn-lg">Tell Me More</a>
+            </div>
+        </div>
+    </header>
+</template>
